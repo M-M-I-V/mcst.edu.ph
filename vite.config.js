@@ -2,6 +2,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
   // Configuration options (if needed)
+  base: '/mcst.edu.ph/',
   css: {
     postcss: './postcss.config.js',
   },
