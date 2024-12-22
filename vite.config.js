@@ -15,6 +15,7 @@ export default defineConfig({
         informationsystems: 'src/informationsystems.html',
         communication: 'src/communication.html',
         mathematics: 'src/mathematics.html',
+        admission: 'src/admission.html',
       },
     },
   },
