@@ -26,9 +26,9 @@
         <h1 class="text-lg sm:text-xl font-bold dark:text-slate-300">Mandaluyong College of Science and Technology</h1>
       </div>
       <nav class="hidden md:flex space-x-4">
-        <a href="/mcst.edu.ph//src/about.html" class="hover:text-yellow-400">About Us</a>
-        <a href="/mcst.edu.ph//src/programs.html" class="hover:text-yellow-400">Programs Offered</a>
-        <a href="/mcst.edu.ph//src/admission.html" class="hover:text-yellow-400">Admissions Info</a>
+        <a href="/mcst.edu.ph/src/about.html" class="hover:text-yellow-400">About Us</a>
+        <a href="/mcst.edu.ph/src/programs.html" class="hover:text-yellow-400">Programs Offered</a>
+        <a href="/mcst.edu.ph/src/admission.html" class="hover:text-yellow-400">Admissions Info</a>
         <a href="#apply" class="hover:text-yellow-400">Apply</a>
       </nav>
       <button 
@@ -97,7 +97,75 @@
     </div>
   </section>
 
-  <section class="py-16">
+  <section id="blog" class="py-12 bg-gray-50 dark:bg-zinc-900">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <h4 class="text-sm font-medium text-gray-600 uppercase">News and Events</h4>
+        <h2 class="text-3xl font-bold text-gray-900">Latest Insights and Updates</h2>
+        <p class="text-gray-600">Explore our latest articles and insights.</p>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="bg-white rounded-lg shadow-md overflow-hidden dark:bg-zinc-800">
+          <div class="aspect-w-16 aspect-h-8 bg-gray-200">
+            <img src="images/tilamsik.jpg" alt="Blog Image" class="w-full h-full object-cover">
+          </div>
+          <div class="p-4">
+            <p class="text-xs font-medium text-gray-500">Education</p>
+            <h3 class="text-sm font-semibold text-gray-900">Unlocking Your Potential at MCST</h3>
+            <p class="text-xs text-gray-600">Discover how MCST empowers students for future success.</p>
+            <div class="flex items-center mt-4 text-gray-500">
+              <img src="/path/to/author-avatar.jpg" alt="Author" class="h-6 w-6 rounded-full mr-2">
+              <div>
+                <p class="text-xs font-medium">Jane Doe</p>
+                <p class="text-xs">11 Jan 2022 · 5 min read</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Blog Post 2 -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden dark:bg-zinc-800">
+          <div class="aspect-w-16 aspect-h-8 bg-gray-200"> <!-- Changed aspect ratio -->
+            <img src="/path/to/image-placeholder.jpg" alt="Blog Image" class="w-full h-full object-cover">
+          </div>
+          <div class="p-4">
+            <p class="text-xs font-medium text-gray-500">Research</p>
+            <h3 class="text-sm font-semibold text-gray-900">Innovative Research at MCST</h3>
+            <p class="text-xs text-gray-600">Learn about groundbreaking research initiatives at our college.</p>
+            <div class="flex items-center mt-4 text-gray-500">
+              <img src="/path/to/author-avatar.jpg" alt="Author" class="h-6 w-6 rounded-full mr-2">
+              <div>
+                <p class="text-xs font-medium">John Smith</p>
+                <p class="text-xs">10 Feb 2022 · 7 min read</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Blog Post 3 -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden dark:bg-zinc-800">
+          <div class="aspect-w-16 aspect-h-8 bg-gray-200"> <!-- Changed aspect ratio -->
+            <img src="images/vaw.jpg" alt="Blog Image" class="w-full h-full object-cover">
+          </div>
+          <div class="p-4">
+            <p class="text-xs font-medium text-gray-500">Events</p>
+            <h3 class="text-sm font-semibold text-gray-900">Upcoming Events at MCST</h3>
+            <p class="text-xs text-gray-600">Join us for exciting events and networking opportunities.</p>
+            <div class="flex items-center mt-4 text-gray-500">
+              <img src="/path/to/author-avatar.jpg" alt="Author" class="h-6 w-6 rounded-full mr-2">
+              <div>
+                <p class="text-xs font-medium">Alice Johnson</p>
+                <p class="text-xs">15 Mar 2022 · 6 min read</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-6">
+        <a href="#" class="inline-block bg-blue-600 text-white px-6 py-2 rounded-md shadow hover:bg-blue-700 text-sm">View all</a>
+      </div>
+    </div>
+  </section>  
+
+  <section class="py-16 bg-gray-100 dark:bg-zinc-900">
     <div class="container mx-auto flex flex-col md:flex-row items-center justify-between px-6">
       <div class="md:w-1/2 mb-8 md:mb-0">
         <h2 class="text-3xl font-bold mb-4">Join Us at MCST Today!</h2>
@@ -110,7 +178,7 @@
     </div>
   </section>
 
-  <section class="py-16 bg-gray-100 dark:bg-zinc-900">
+  <section class="py-16 bg-gray-50 dark:bg-zinc-900">
     <div class="container mx-auto">
       <h2 class="text-3xl font-bold mb-4">Get in Touch</h2>
       <p class="text-lg text-gray-700 mb-8 dark:text-slate-300">We're here to assist you with any inquiries.</p>
@@ -179,7 +247,7 @@
     <div class="flex flex-col md:flex-row justify-between md:space-x-16">
       <div>
         <h4 class="font-semibold mb-2 dark:text-slate-200">Admissions Info</h4>
-        <a href="#" class="block text-gray-300 hover:text-yellow-400">Course Offerings</a>
+        <a href="/mcst.edu.ph/src/programs.html" class="block text-gray-300 hover:text-yellow-400">Program Offerings</a>
       </div>
       <div>
         <h4 class="font-semibold mb-2 dark:text-slate-200">Contact Us</h4>
