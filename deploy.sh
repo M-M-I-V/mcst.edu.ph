@@ -11,5 +11,5 @@ cp -r /home/mmiv/mcst.edu.ph/dist/* .
 
 # Commit and push
 git add .
-git commit -m "Deploy new build"
+git commit -m "Fixed file path error"
 git push origin main

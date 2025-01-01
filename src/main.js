@@ -44,6 +44,10 @@ function toggleTheme() {
   themeIcon.textContent = isDarkMode ? '🌓' : '🌗';
 }
 
+if (location.pathname === '/Home/' || location.pathname === '/Home') {
+  window.location.href = '/Home/index.html';
+}
+
 if (menuToggle) {
   menuToggle.addEventListener('click', toggleMenu);
 } else {

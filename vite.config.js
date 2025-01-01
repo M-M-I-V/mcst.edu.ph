@@ -3,6 +3,9 @@ import { defineConfig } from 'vite';
 export default defineConfig({
   // Configuration options (if needed)
   base: '/Home/',
+  server: {
+    open: '/Home/index.html',
+  },
   css: {
     postcss: './postcss.config.js',
   },
