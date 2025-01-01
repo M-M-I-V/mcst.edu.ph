@@ -11,5 +11,5 @@ cp -r /home/mmiv/mcst.edu.ph/dist/* .
 
 # Commit and push
 git add .
-git commit -m "Fixed footer's weird behavior"
+git commit -m "Deploy new build"
 git push origin main
