@@ -19,6 +19,7 @@ export default defineConfig({
         communication: 'src/communication.html',
         mathematics: 'src/mathematics.html',
         admission: 'src/admission.html',
+        apply: 'src/apply.html',
       },
     },
   },

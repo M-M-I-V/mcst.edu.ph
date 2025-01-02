@@ -11,5 +11,5 @@ cp -r /home/mmiv/mcst.edu.ph/dist/* .
 
 # Commit and push
 git add .
-git commit -m "Fixed file path error"
+git commit -m "Updated links that redirect to apply.html"
 git push origin main
