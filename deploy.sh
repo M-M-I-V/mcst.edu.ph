@@ -5,7 +5,7 @@ npm run build
 
 # Commit and push
 git add .
-git commit -m "Updated news and events section"
+git commit -m "Fixed errors in news and events section"
 git push origin new-design
 
 # Navigate to the deployment repo
@@ -16,5 +16,5 @@ cp -r /home/mmiv/mcst.edu.ph/dist/* .
 
 # Commit and push
 git add .
-git commit -m "Updated news and events section"
+git commit -m "Fixed errors in news and events section"
 git push origin main
