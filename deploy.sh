@@ -3,6 +3,11 @@
 # Build the project
 npm run build
 
+# Commit and push
+git add .
+git commit -m "Updated links that redirect to apply.html"
+git push origin main
+
 # Navigate to the deployment repo
 cd /home/mmiv/Home
 
